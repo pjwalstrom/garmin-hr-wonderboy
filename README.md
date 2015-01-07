@@ -1,9 +1,9 @@
-Small sample datafield for the Garmin 920XT
+Sample datafield for the Garmin 920XT
 ========
 
 See the following resources
-1. (http://developer.garmin.com/connect-iq/sdk/)
-2. (https://forums.garmin.com/showthread.php?174523-Try-out-Connect-IQ-on-the-Forerunner-920)
+* http://developer.garmin.com/connect-iq/sdk/
+* https://forums.garmin.com/showthread.php?174523-Try-out-Connect-IQ-on-the-Forerunner-920
 
 For those of you who have read the book ["Fyrsten" by Henrik Langeland](https://www.goodreads.com/book/show/17826227-fyrsten), I made Christian von der Hall's favourite datafield. 
 
