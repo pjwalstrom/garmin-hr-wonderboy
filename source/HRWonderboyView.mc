@@ -11,12 +11,12 @@ class HRWonderboyView extends Ui.SimpleDataField {
     //! information. Calculate a value and return it in this method.
     function compute(info) {
         // See Activity.Info in the documentation for available information.
-		if (info.currentHeartRate == null) {
-			return "--";
-		} else if (info.currentHeartRate <= 30) {
-			return info.currentHeartRate;
-		} else {
-        	return info.currentHeartRate - 30;
+        if (info.currentHeartRate == null) {
+            return "--";
+        } else if (info.currentHeartRate <= 30) {
+            return info.currentHeartRate;
+        } else {
+            return info.currentHeartRate - 30;
         }
     }
 
