@@ -8,7 +8,7 @@ See the following resources
 * http://developer.garmin.com/connect-iq/sdk/
 * https://forums.garmin.com/showthread.php?174523-Try-out-Connect-IQ-on-the-Forerunner-920
 
-## How to build
+## How to build the executable
 monkeyc -o hrwonderboy.prg -m manifest.xml -z resources/resources.xml -d fr920xt source/*.mc
 	
 
