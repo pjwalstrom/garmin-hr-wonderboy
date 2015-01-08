@@ -1,6 +1,7 @@
 using Toybox.WatchUi as Ui;
 
 class HRWonderboyView extends Ui.SimpleDataField {
+    var HR_OFFSET = 30;
 
     //! Set the label of the data field here.
     function initialize() {
@@ -13,10 +14,10 @@ class HRWonderboyView extends Ui.SimpleDataField {
         // See Activity.Info in the documentation for available information.
         if (info.currentHeartRate == null) {
             return "--";
-        } else if (info.currentHeartRate <= 30) {
+        } else if (info.currentHeartRate <= HR_OFFSET) {
             return info.currentHeartRate;
         } else {
-            return info.currentHeartRate - 30;
+            return info.currentHeartRate - HR_OFFSET;
         }
     }
 
