@@ -15,3 +15,7 @@ monkeyc -o hrwonderboy.prg -m manifest.xml -z resources/resources.xml -d fr920xt
 ## How to install
 * Connect your 920XT to your computer via the USB-cable.
 * Copy the generated hrwonderboy.prg to the apps-folder of your 920XT.
+
+## Screenshot
+!(https://dl.dropboxusercontent.com/u/11730591/vonderhall.jpg)
+
