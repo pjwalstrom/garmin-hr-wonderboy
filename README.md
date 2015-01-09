@@ -17,5 +17,5 @@ monkeyc -o hrwonderboy.prg -m manifest.xml -z resources/resources.xml -d fr920xt
 * Copy the generated hrwonderboy.prg to the apps-folder of your 920XT.
 
 ## Screenshot
-![Fake HR Screenshot](https://dl.dropboxusercontent.com/u/11730591/vonderhall.jpg "Fake HR")
+![Fake HR Screenshot](https://dl.dropboxusercontent.com/u/11730591/datafield.png "Fake HR")
 
