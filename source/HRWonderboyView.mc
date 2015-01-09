@@ -1,10 +1,10 @@
 using Toybox.WatchUi as Ui;
 
 class HRWonderboyView extends Ui.SimpleDataField {
-    var HR_OFFSET = 30;
+    var HR_OFFSET = 15;
 
     function initialize() {
-        label = "von der Hall HR";
+        label = "Heart Rate'";
     }
 
     function compute(info) {
