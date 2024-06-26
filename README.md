@@ -11,7 +11,9 @@ See the following resources
 * https://forums.garmin.com/developer/connect-iq/f/discussion/164/try-out-connect-iq-on-the-forerunner-920/
 
 ## How to build the executable
-monkeyc -o foobar.prg -m manifest.xml -z resources/resources.xml -d fr920xt source/*.mc	
+```
+monkeyc -o foobar.prg -m manifest.xml -z resources/resources.xml -d fr920xt source/*.mc
+```
 
 ## How to install
 * Connect your 920XT to your computer via the USB-cable.
